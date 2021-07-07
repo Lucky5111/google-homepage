@@ -1,3 +1,6 @@
+
+
+
 /* Image */
 
 .logo {
@@ -11,21 +14,69 @@
 /* Search box */
 
 .search-container {
-    width: 550px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /*Sets alloted space*/
+    width: 620px;
+
+    /*Padding and margin*/
+
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(172, 172, 172);
-    border: gray;
+
+    /*Colors, Borders, and Flex*/
+    background-color: rgb(255, 255, 255);
+    border: 20px black;
     border-radius: 20px;
+    display: flex;
+    outline:1px solid rgb(211, 211, 211);
+
+}
+
+.search-container:hover {
+    box-shadow: 0px 1px 1px 2px #d6d6d6;
 }
 
 .search-box {
-    width: 75%;
+    width: 400px;
     height: 25px;
     border: none;
     border-radius: 20;
+    outline: none;
+}
+
+/*RIGHT SEARCH ICON*/
+
+.icon {
+    /* Setting up width & height*/
+    width: 20px;
+    height: 20px;
+
+    /* padding and other stuff*/
+    padding-left: 20px;
+    padding-top:  3px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+
+    /*Color changing to grey*/
+
+    filter:contrast(0);
+}
+
+.mic-icon {
+    /* Setting up width & height*/
+    width: 20px;
+    height: 20px;
+
+    /* padding and other stuff*/
+    padding-left: px;
+    padding-top:  3px;
+    padding-bottom: px;
+    margin-left: 90px;
+    margin-right: 500px;
+
+    /*Color changing to grey*/
+
 }
