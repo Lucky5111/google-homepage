@@ -14,13 +14,13 @@
 /* Search box */
 
 .search-container {
-    /*Sets alloted space*/
-    width: 620px;
+    /*Sets allocated space*/
+    width: 560px;
 
     /*Padding and margin*/
 
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -30,8 +30,8 @@
     background-color: rgb(255, 255, 255);
     border: 20px black;
     border-radius: 20px;
-    display: flex;
     outline:1px solid rgb(211, 211, 211);
+    display: flex;
 
 }
 
@@ -55,7 +55,7 @@
     height: 20px;
 
     /* padding and other stuff*/
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top:  3px;
     padding-bottom: 2px;
     margin-right: 10px;
@@ -65,18 +65,15 @@
     filter:contrast(0);
 }
 
+
 .mic-icon {
     /* Setting up width & height*/
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
 
     /* padding and other stuff*/
-    padding-left: px;
-    padding-top:  3px;
+    padding-top: 1px;
     padding-bottom: px;
-    margin-left: 90px;
-    margin-right: 500px;
-
-    /*Color changing to grey*/
-
+    margin-left: 70px;
+    margin-right: 50px;
 }
