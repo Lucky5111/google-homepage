@@ -87,15 +87,27 @@
 
     /*font styling*/
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;;
+    font-size: 15px;;
     color: gray;
-    text-decoration: none;
-    text-decoration-line: none;
-    text-decoration-style: solid;
 
     /*spacing*/
     word-spacing: 17px;
+    display:flex;
 }
-.menu:hover {
+
+.left-menu {
+    padding: 5px 5px 5px 5px;
+    width: 95%;
+}
+
+.right-menu {
+    padding: 5px 5px 5px 5px;
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
     text-decoration: underline;
 }
