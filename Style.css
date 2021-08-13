@@ -113,6 +113,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 a:hover {
     text-decoration: underline;
@@ -129,14 +130,30 @@ a:hover {
     background-size: auto;
     width: 100%;
     margin-left:-10px;
+    margin-right: 10px;
 
     /*Text style*/
 
-    
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 .footer {
-    padding: 15px 15px 15px 15px;
-
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    word-spacing: 5px;
 }
 
+
+.right-footer {
+    width: 20%
+}
+
+.middle-footer {
+
+    width: 75%;
+}
+
+.left-footer {
+    width: 10%;
+}
